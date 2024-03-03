@@ -10,3 +10,5 @@ psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
 pg_dump -cC --inserts -U freecodecamp students > students.sql
+./student_info.sh
+./student_info.sh
