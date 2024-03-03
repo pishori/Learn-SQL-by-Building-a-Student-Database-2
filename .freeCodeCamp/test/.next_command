@@ -45,3 +45,5 @@ psql --username=freecodecamp --dbname=postgres
 clear
 clear
 ./student_info.sh
+./student_info.sh
+./student_info.sh
