@@ -148,3 +148,5 @@ __vsc_original_prompt_command=$PROMPT_COMMAND
 ./student_info.sh
 ./student_info.sh
 ./student_info.sh
+pg_dump -cC --inserts -U freecodecamp stude > students.sql
+pg_dump -cC --inserts -U freecodecamp students > students.sql
